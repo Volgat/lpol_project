@@ -1,0 +1,20 @@
+LPOL (Liptako Problem Optimized Learning) — Proprietary License
+
+Copyright © 2025 Amega Mike
+
+All rights reserved.
+
+The LPOL algorithm and associated research, code, and models are the intellectual property of Amega Mike and/or Ame Web Studio. This repository and its contents are protected under international copyright laws.
+
+❌ You MAY NOT:
+- Copy, redistribute, or use this code in whole or in part without explicit written permission.
+- Modify or create derivative works based on this repository without prior consent.
+- Use this project for commercial purposes without a valid commercial license.
+
+✅ You MAY:
+- Read and explore the public documentation for educational and scientific purposes.
+- Request access for research collaboration via direct contact.
+
+Contact: [mikeamega910@gmail.com]
+
+LPOL is currently under active research and commercial development. All uses are subject to approval.
