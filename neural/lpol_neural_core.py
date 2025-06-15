@@ -1,6 +1,6 @@
 """
 LPOL Neural Core - Architecture Révolutionnaire
-Remplace les Transformers par l'apprentissage basé sur l'expérience
+Remplace les Transformers par l'apprentissage basé sur l'expérience model lpol
 
 Copyright © 2025 Amega Mike - Proprietary License
 """
