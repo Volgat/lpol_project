@@ -1,0 +1,323 @@
+# ================================================
+# LPOL (Liptako Problem Optimized Learning) 
+# .gitignore - Fichiers à exclure du versioning
+# Copyright © 2025 Amega Mike - Proprietary License
+# ================================================
+
+# ===== PYTHON =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ===== ENVIRONMENTS =====
+# Virtual environments
+lpol_env/
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Conda
+.conda/
+
+# ===== LPOL SPECIFIC =====
+# Modèles entraînés et checkpoints
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.model
+*.weights
+*.h5
+*.pth
+*.pt
+
+#environement virtuel
+lpol_env/
+
+# Données et datasets
+datasets/raw/
+datasets/processed/
+data/raw/
+data/processed/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+
+# Résultats d'expériences
+results/
+experiments/output/
+logs/
+*.log
+lpol_results.json
+benchmark_*.json
+performance_*.json
+
+# Mémoire LPOL et patterns appris
+lpol_memory/
+patterns_cache/
+*.memory
+*.patterns
+learned_patterns.json
+
+# Visualisations générées
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# ===== JUPYTER & NOTEBOOKS =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# ===== IDE & EDITORS =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== SYSTEM FILES =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== DOCUMENTATION =====
+# Sphinx documentation
+docs/_build/
+docs/build/
+.readthedocs.yml
+
+# ===== SECURITY & CREDENTIALS =====
+# API Keys et secrets
+.secrets/
+secrets.json
+api_keys.json
+*.key
+*.pem
+*.crt
+*.p12
+
+# Configuration sensible
+config/local.py
+config/production.py
+local_settings.py
+
+# ===== MULTIMEDIA (pour extensions futures) =====
+# Fichiers audio/vidéo générés
+generated_audio/
+generated_video/
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ===== PERFORMANCE & PROFILING =====
+# Profiling
+*.prof
+*.pstats
+.prof/
+
+# Memory profiling
+*.mprof
+mprofile_*.dat
+
+# ===== TEMPORARY & CACHE =====
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# Cache files
+.cache/
+*.cache
+cache/
+
+# ===== LPOL RESEARCH SPECIFIC =====
+# Données confidentielles de recherche
+research_data/private/
+proprietary_datasets/
+internal_benchmarks/
+
+# Prototypes expérimentaux
+prototypes/experimental/
+prototypes/unstable/
+
+# Analyses comparatives confidentielles
+comparisons/confidential/
+benchmarks/internal/
+
+# ===== VERSION CONTROL =====
+# Git
+.git/
+*.patch
+*.diff
+
+# ===== BUILD & DEPLOYMENT =====
+# Docker
+.dockerignore
+Dockerfile.*
+docker-compose*.yml
+
+# Kubernetes
+*.yaml
+*.yml
+k8s/
+
+# ===== MISC =====
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large files marker (Git LFS)
+*.lfs
+
+# Backup files
+*.backup
+*.bck
+
+# ================================================
+# INSTRUCTIONS IMPORTANTES:
+#
+# 1. Ce .gitignore protège la propriété intellectuelle
+#    de l'algorithme LPOL d'Amega Mike
+#
+# 2. Les datasets, modèles entraînés et résultats
+#    d'expériences sont exclus pour des raisons de
+#    confidentialité et de taille
+#
+# 3. Pour partager des résultats spécifiques,
+#    créer un dossier 'shared/' et l'ajouter
+#    explicitement avec git add -f
+#
+# 4. Avant tout commit, vérifier qu'aucune donnée
+#    sensible n'est incluse avec: git status
+# ================================================
