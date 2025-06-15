@@ -1,7 +1,7 @@
 # 🏗️ LPOL Neural Architecture - Structure Complète
 
 ```
-C:\Users\mikea\OneDrive\Desktop\lpol_project\LPOL\
+C:\Users\mikea\OneDrive\Desktop\lpol_project\
 │
 ├── 📁 core/                                    # Cœur algorithme LPOL
 │   ├── lpol_prototype.py                       # Prototype actuel (gardé)

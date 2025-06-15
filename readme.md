@@ -1,14 +1,14 @@
 # 📁 STRUCTURE COMPLÈTE DU PROJET LPOL
 
 ```
-C:\Users\mikea\OneDrive\Desktop\lpol_project\
-│
-├── 📁 lpol_env\                                    # Environnement virtuel Python
-│   ├── Scripts\                                    # Exécutables Python (Windows)
-│   ├── Lib\                                       # Bibliothèques installées
-│   └── ...
-│
-└── 📁 LPOL\                                       # 🚀 DOSSIER PRINCIPAL RÉVOLUTIONNAIRE
+    C:\Users\mikea\OneDrive\Desktop\lpol_project\
+    │
+    ├── 📁 lpol_env\                                    # Environnement virtuel Python
+    │   ├── Scripts\                                    # Exécutables Python (Windows)
+    │   ├── Lib\                                       # Bibliothèques installées
+    │   └── ...
+    │
+                                      
     │
     ├── 📁 core\                                   # 🧪 Prototypes initiaux (GARDÉS)
     │   ├── lpol_prototype.py                      # ✅ Premier prototype fonctionnel
